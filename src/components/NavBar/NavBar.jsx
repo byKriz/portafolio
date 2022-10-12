@@ -17,7 +17,9 @@ export const NavBar = () => {
                 <a href="#about">ABOUT</a>
                 <a href="#contact">CONTACT</a>
             </li>
-            <li className={styles.navListItem}></li>
+            <li className={styles.navListItem}>
+                <p>VE</p>
+            </li>   
         </ul>
     </nav>
   )

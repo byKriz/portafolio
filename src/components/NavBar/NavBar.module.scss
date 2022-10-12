@@ -1,0 +1,58 @@
+$primary-color: black;
+
+.NavBar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 1.0625rem 2.375rem 0;
+  font-family: "Clash Display";
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
+.navList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navListItem {
+  display: flex;
+  align-items: center;
+
+  .navTitle {
+    font-weight: 500;
+    color: $primary-color;
+  }
+  a {
+    color: $primary-color;
+    font-size: 0.875rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-bottom: 0.375rem;
+    margin-left: -0.9375rem;
+  }
+}
+
+.navScroll_Links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    color: $primary-color;
+    padding: 0 0.3125rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
