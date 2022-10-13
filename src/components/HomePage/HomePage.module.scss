@@ -1,0 +1,23 @@
+.HomePage {
+  position: relative;
+  background-color: #fff;
+  height: 37.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeText {
+  text-align: center;
+  font-family: "Clash Display";
+  color: #242424;
+}
+
+.homeTitle {
+  span {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 40px;
+  }
+}
