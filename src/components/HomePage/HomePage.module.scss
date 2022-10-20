@@ -21,3 +21,16 @@
     line-height: 40px;
   }
 }
+
+@media (min-width: 600px) {
+  .HomePage {
+    height: 100vh;
+  }
+
+  .homeTitle {
+    span {
+      font-size: 160px;
+      line-height: 120px;
+    }
+  }
+}
