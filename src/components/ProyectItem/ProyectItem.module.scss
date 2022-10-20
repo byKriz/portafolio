@@ -1,6 +1,6 @@
 .ProyectItem {
     // position: relative;
-    // margin-bottom: 140px;
+    padding-bottom: 6.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,16 +23,16 @@
     align-items: center;
     justify-content: space-between;
     font-family: "Clash Display";
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 
     h3 {
-        font-size: 23px;
+        font-size: 1.4375rem;
         font-weight: 400;
     }
 
     p {
         margin: 0;
-        font-size: 13px;
+        font-size: 0.8125rem;
         font-weight: 300;
     }
 }
