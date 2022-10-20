@@ -1,0 +1,77 @@
+$card1-gradient-color1: #f12711;
+$card1-gradient-color2: #f5af19;
+$card2-gradient-color1: #7f00ff;
+$card2-gradient-color2: #e100ff;
+$card3-gradient-color1: #3f2b96;
+$card3-gradient-color2: #a8c0ff;
+$card4-gradient-color1: #11998e;
+$card4-gradient-color2: #38ef7d;
+
+.TechnologyCard {
+  width: 220px;
+  background: #fff;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  color: var(--color-text);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  //cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.TechnologyCard:hover {
+  transform: scale(1.1);
+}
+
+.cardHeader {
+  height: 200px;
+  width: 100%;
+  background: red;
+  border-radius: 100% 0% 100% 0% / 0% 50% 50% 100%;
+  display: grid;
+  place-items: center;
+
+  svg {
+    color: #fff;
+    font-size: 4.5rem;
+  }
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cardTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cardText {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.react {
+//   background: linear-gradient(
+//     to bottom left,
+//     var(card1-gradient-color1),
+//     var(card1-gradient-color2)
+//   );
+    background:lightblue ;
+}
+
+.tailwind {
+    background-color: lightgreen;
+}
+
+.sass {
+    background-color: lightcoral;
+}
