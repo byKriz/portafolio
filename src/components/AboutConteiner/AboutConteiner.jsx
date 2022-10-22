@@ -24,20 +24,11 @@ export const AboutConteiner = () => {
             <img src="" alt="" />
         </figure> */}
         <div className={styles.cardContainer}>
-          <TechnologyCard
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
-          beatae corporis cupiditate recusandae"
-          />
-          <TechnologyCard
-            tech="Tailwind"
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
-          beatae corporis cupiditate recusandae"
-          />
-          <TechnologyCard
-            tech="Sass"
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
-          beatae corporis cupiditate recusandae"
-          />
+          <TechnologyCard />
+          <TechnologyCard tech="Tailwind" />
+          <TechnologyCard tech="Sass" />
+          <TechnologyCard tech="ViteJs" />
+          <TechnologyCard tech="ApiRest" />
         </div>
       </div>
     </section>
