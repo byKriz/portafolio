@@ -26,7 +26,7 @@ export const TechnologyCard = ({ tech = "React", text }) => {
       </div>
       <div className={styles.cardContent}>
         <h1 className={styles.cardTitle}>{tech}</h1>
-        <p className={styles.cardText}>{text}</p>
+        {/* <p className={styles.cardText}>{text}</p> */}
         {/* <button className="card-btn one">code</button> */}
       </div>
     </div>
