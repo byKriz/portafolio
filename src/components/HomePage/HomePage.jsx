@@ -3,7 +3,7 @@ import styles from "./HomePage.module.scss"
 
 export const HomePage = () => {
   return (
-    <section className={styles.HomePage}>
+    <section className={styles.HomePage} id="home">
         <div className={styles.homeText}>
             <h1 className={styles.homeTitle}>
                 <span>FRONTEND</span>

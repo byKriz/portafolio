@@ -6,7 +6,7 @@ export const NavBar = () => {
     <nav className={styles.NavBar}>
         <ul className={styles.navList}>
             <li className={styles.navListItem}>
-                <a href="/" className={styles.navTitle}>
+                <a href="#home" className={styles.navTitle}>
                     Cristian
                     <br />
                     Esquivel
