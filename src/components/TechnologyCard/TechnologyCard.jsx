@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./TechnologyCard.module.scss";
 import { FaReact, FaSass } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiVite } from "react-icons/si";
+import { AiOutlineApi } from "react-icons/ai";
 
 export const TechnologyCard = ({ tech = "React", text }) => {
   const technologies = {
@@ -16,6 +17,14 @@ export const TechnologyCard = ({ tech = "React", text }) => {
     Sass: {
       icon: <FaSass />,
       style: styles.sass,
+    },
+    ViteJs: {
+      icon: <SiVite />,
+      style: styles.vitejs,
+    },
+    ApiRest: {
+      icon: <AiOutlineApi />,
+      style: styles.apirest,
     },
   };
 
