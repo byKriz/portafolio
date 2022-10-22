@@ -1,4 +1,4 @@
-$primary-color: #E8E8E8;
+$primary-color: #e8e8e8;
 
 .NavBar {
   position: fixed;
@@ -8,7 +8,6 @@ $primary-color: #E8E8E8;
   font-family: "Clash Display";
   z-index: 3;
   mix-blend-mode: difference;
-
 
   a {
     text-decoration: none;
@@ -61,5 +60,21 @@ $primary-color: #E8E8E8;
     padding: 0 0.3125rem;
     font-size: 1rem;
     font-weight: 300;
+  }
+}
+
+@media (min-width: 600px) {
+  .navListItem {
+
+    a {
+
+      font-size: 18px;
+    }
+  }
+
+  .navScroll_Links {
+    a {
+      font-size: 20px;
+    }
   }
 }
