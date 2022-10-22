@@ -25,3 +25,20 @@
     justify-content: center;
     align-items: center;
 }
+.about_containt {
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+    .about_containt {
+        display: flex;
+
+        .about_text {
+            width: 50%;
+        }
+
+        .cardContainer {
+            width: 50%;
+        }
+    }
+}
