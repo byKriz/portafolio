@@ -42,12 +42,15 @@ export const AboutConteiner = () => {
         {/* <figure>
             <img src="" alt="" />
         </figure> */}
-        <div className={styles.cardContainer}>
-          <TechnologyCard />
-          <TechnologyCard tech="Tailwind" />
-          <TechnologyCard tech="Sass" />
-          <TechnologyCard tech="ViteJs" />
-          <TechnologyCard tech="ApiRest" />
+        <div className={styles.my_skills}>
+          <h3>My Skills</h3>
+          <div className={styles.cardContainer}>
+            <TechnologyCard />
+            <TechnologyCard tech="Tailwind" />
+            <TechnologyCard tech="Sass" />
+            <TechnologyCard tech="ViteJs" />
+            <TechnologyCard tech="ApiRest" />
+          </div>
         </div>
       </div>
     </section>

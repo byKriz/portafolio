@@ -25,7 +25,6 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-  order: 2;
 }
 .profile_content {
   width: 100%;
@@ -50,6 +49,20 @@
 .profile_img {
   width: 70%;
   border-radius: 50%;
+}
+
+.my_skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  order: 2;
+
+  h3 {
+    padding-left: 3.125rem;
+    padding-bottom: 0.625rem;
+    font-family: "Clash Display";
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 955px) {
