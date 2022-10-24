@@ -39,9 +39,6 @@ export const AboutConteiner = () => {
             </p>
           </div>
         </div>
-        {/* <figure>
-            <img src="" alt="" />
-        </figure> */}
         <div className={styles.my_skills}>
           <h3>My Skills</h3>
           <div className={styles.cardContainer}>

@@ -28,7 +28,9 @@
 }
 .profile_content {
   width: 100%;
+  max-width: 1350px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -37,6 +39,9 @@
 
 .about_containt {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .img_container {
@@ -48,7 +53,9 @@
 }
 .profile_img {
   width: 70%;
+  max-width: 450px;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .my_skills {
@@ -65,12 +72,7 @@
   }
 }
 
-@media (min-width: 955px) {
-  .about_containt {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
+@media (min-width: 800px) {
   .about_text {
     width: 50%;
   }
@@ -78,9 +80,17 @@
     width: 50%;
     order: 1;
     margin-bottom: 0;
+    // margin-left: 20px;
 
     .profile_img {
-      width: 50%;
+      width: 80%;
     }
+  }
+}
+
+@media (min-width: 955px) {
+
+  .profile_img {
+    width: 50%;
   }
 }
