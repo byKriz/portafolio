@@ -47,6 +47,7 @@ export const AboutConteiner = () => {
             <TechnologyCard tech="Sass" />
             <TechnologyCard tech="ViteJs" />
             <TechnologyCard tech="ApiRest" />
+            <TechnologyCard tech="Git" />
           </div>
         </div>
       </div>

@@ -65,21 +65,26 @@ $card4-gradient-color2: #38ef7d;
 //     var(card1-gradient-color1),
 //     var(card1-gradient-color2)
 //   );
-    background:lightblue ;
+    background:#95b8f6 ;
 }
 
 .tailwind {
-    background-color: lightgreen;
+    background-color: #95fab9;
 }
 
 .sass {
-    background-color: lightcoral;
+    background-color: #f79fbe;
 }
 
 .vitejs {
-  background-color: rgb(241, 241, 98);
+  background-color: #f9d99a;
 }
 
 .apirest {
-  background-color: #a244ff;
+  background-color: #bc98f3;
+}
+
+.git {
+  background-color: #f47e8e;
+
 }
