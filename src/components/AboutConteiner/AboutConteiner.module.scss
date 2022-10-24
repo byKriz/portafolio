@@ -1,44 +1,73 @@
 .AboutConteiner {
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .about_title {
-    font-size: 25px;
-    font-family: "Clash Display";
-    padding: 50px 27px 44px 27px;
+  font-size: 25px;
+  font-family: "Clash Display";
+  padding: 50px 27px 44px 27px;
 }
 
 .about_text {
-    padding: 0 27px 80px 27px;
-    font-family: "Montserrat Custom",sans-serif;
+  padding: 0 27px 0 50px;
+  font-family: "Montserrat Custom", sans-serif;
 }
 
 .cardContainer {
-    width: 100%;
-    padding-bottom: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding-bottom: 80px;
+  // padding: 0 6px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  order: 2;
 }
+.profile_content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .about_containt {
-    width: 100%;
+  width: 100%;
+}
+
+.img_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.profile_img {
+  width: 70%;
+  border-radius: 50%;
 }
 
 @media (min-width: 955px) {
-    .about_containt {
-        display: flex;
+  .about_containt {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-        .about_text {
-            width: 50%;
-        }
+  .about_text {
+    width: 50%;
+  }
+  .img_container {
+    width: 50%;
+    order: 1;
+    margin-bottom: 0;
 
-        .cardContainer {
-            width: 50%;
-        }
+    .profile_img {
+      width: 50%;
     }
+  }
 }
