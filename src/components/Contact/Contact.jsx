@@ -10,10 +10,10 @@ export const Contact = () => {
       </div>
       <div className={styles.infoContainer}>
         <div className={styles.socialMediaContainer}>
-          <a href="https://github.com/byKriz" className={styles.iconLink}>
+          <a href="https://github.com/byKriz" target="_blank" className={styles.iconLink}>
             <AiFillGithub />
           </a>
-          <a href="https://www.linkedin.com/in/cristian-esquivel-351613135/" className={styles.iconLink}>
+          <a href="https://www.linkedin.com/in/cristian-esquivel-351613135/" target="_blank" className={styles.iconLink}>
             <AiFillLinkedin />
           </a>
         </div>
