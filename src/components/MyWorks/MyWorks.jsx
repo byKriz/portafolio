@@ -9,7 +9,7 @@ export const MyWorks = () => {
         <h2>Projects I have created</h2>
       </div>
       <div className={styles.myWorks__container}>
-        <ProyectItem title="/01 CryptoView" subtitle="React/Tailwind" />
+        <ProyectItem title="/01 CryptoView" subtitle="React/Tailwind/Firebase" />
         <ProyectItem title="/01 CryptoView" subtitle="React/Tailwind" />
         <ProyectItem title="/01 CryptoView" subtitle="React/Tailwind" />
       </div>
