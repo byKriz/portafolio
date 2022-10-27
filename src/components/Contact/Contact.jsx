@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export const Contact = () => {
   return (
-    <section className={styles.ContactContainer} id="contact">
+    <footer className={styles.ContactContainer} id="contact">
       <div className={styles.contact_title}>
         <h2>Contact Me</h2>
       </div>
@@ -19,6 +19,6 @@ export const Contact = () => {
         </div>
         <p className={styles.email}>cristianesquivelh@gmail.com</p>
       </div>
-    </section>
+    </footer>
   );
 };
