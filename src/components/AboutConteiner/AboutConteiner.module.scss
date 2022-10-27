@@ -55,7 +55,7 @@
   width: 50%;
   max-width: 450px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .my_skills {
@@ -84,15 +84,15 @@
     margin-bottom: 0;
     // margin-left: 20px;
 
-    .profile_img {
-      width: 80%;
-    }
+    // .profile_img {
+    //   width: 50%;
+    // }
   }
 }
 
-@media (min-width: 955px) {
+// @media (min-width: 955px) {
 
-  .profile_img {
-    width: 50%;
-  }
-}
+//   .profile_img {
+//     width: 50%;
+//   }
+// }
