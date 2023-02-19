@@ -10,8 +10,8 @@ export const MyWorks = () => {
       </div>
       <div className={styles.myWorks__container}>
         <ProyectItem title="/01 CryptoView" subtitle="React/Tailwind" />
-        <ProyectItem title="/01 CryptoView" subtitle="React/Tailwind" />
-        <ProyectItem title="/01 CryptoView" subtitle="React/Tailwind" />
+        <ProyectItem title="/02 PokedefApp" subtitle="React/SCSS" />
+        <ProyectItem title="/03 MovieApp" subtitle="React/SCSS" />
       </div>
     </section>
   );
